@@ -1,0 +1,184 @@
+:root {
+  --main-color: #757575;
+  --accent-color: #2196f3;
+  --header-color: #212121;
+  --main-header: #ffffff;
+  --adress-color: rgba(255, 255, 255, 0.6);
+  --our-team-background: #f5f4fa;
+  --hero-background: #2f303a;
+}
+/* общие стили */
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-color);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* шапка */
+.main-head {
+  background-color: var(--main-header);
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.accent {
+  color: var(--accent-color);
+}
+.head-link,
+.head-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link {
+  color: var(--header-color);
+}
+.contacts-link {
+  color: var(--main-color);
+}
+.active {
+  color: var(--accent-color);
+}
+.nav-link:hover,
+.contacts-link:hover,
+.nav-link:focus,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+/* подвал */
+.main-footer {
+  background-color: var(--hero-background);
+}
+.logo-footer {
+  color: var(--main-header);
+}
+.adress,
+.adress-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-header);
+}
+.adress-link {
+  color: var(--adress-color);
+}
+
+/* Студия */
+
+/* Секция герой */
+.hero {
+  background-color: var(--hero-background);
+}
+
+.hero-head {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-header);
+}
+.hero-link {
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-header);
+}
+/* Секция особенности */
+.head-section {
+  color: var(--header-color);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.feature-item-head {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* Секция Чем мы занимаемся */
+.directions-head {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* Секция Наша команда */
+.team {
+  background-color: var(--our-team-background);
+}
+.team-head {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Портофолио */
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--our-team-background);
+  color: var(--header-color);
+}
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-color);
+  color: var(--main-header);
+}
+.example-head {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
+.example-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
